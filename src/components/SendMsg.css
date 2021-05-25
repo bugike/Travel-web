@@ -1,0 +1,80 @@
+.banner {
+  background-image: url("../images/contact-banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 20vh;
+}
+
+.msg-form {
+  height: 500px;
+  width: 700px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  flex-basis: 65%;
+}
+
+.contact-container {
+  width: 70vw;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.msg-form .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.msg-form .col-2 {
+  flex-basis: 45%;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-form label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.msg-form .col-1 {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-input {
+  width: 95%;
+  height: 300px;
+}
+
+.send-msg {
+  height: 40px;
+  width: 150px;
+  margin: 15px 0 15px 20px;
+}
+
+.msg-form h2 {
+  margin-left: 15px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 40%;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
